@@ -25,7 +25,7 @@ def create_cut_circuit():
 	#Output qubits MUST BE set to 0
 	circuit.initialize(ZERO, 3)
 	#HADAMARD GATES#
-	print("aqui llego")
+	
  
 	circuit.h(0)
 	circuit.h(1)
